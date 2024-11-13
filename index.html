@@ -3,126 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Project Title</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Your Project Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* Basic Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Body and Font */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f9f9f9;
+        .slide-section {
+            border: 1px solid #ddd;
+            border-radius: 10px;
             padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
-
-        /* Header Styling */
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        header h1 {
-            font-size: 2.5em;
-            color: #333;
-        }
-        header p {
-            font-size: 1.2em;
-            color: #666;
-        }
-
-        /* Section Styling */
-        section {
-            margin-bottom: 40px;
-        }
-        section h2 {
-            font-size: 2em;
-            color: #0056b3;
-            margin-bottom: 15px;
-        }
-        section p {
-            font-size: 1.1em;
-            color: #333;
-            max-width: 800px;
-            margin: auto;
-        }
-
-        /* Links */
-        #links ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        #links a {
-            color: #0056b3;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        #links a:hover {
-            text-decoration: underline;
-        }
-
-        /* Footer Styling */
-        footer {
-            text-align: center;
-            padding: 20px;
-            font-size: 1em;
-            color: #777;
-        }
-
     </style>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1>Your Project Title</h1>
-        <p>Authors: Your Name, Collaborators</p>
-    </header>
+    <div class="container">
+        <h1 class="text-center mt-4">Project Title</h1>
+        <h3 class="text-center">Authors and Affiliations</h3>
 
-    <!-- Abstract Section -->
-    <section id="abstract">
-        <h2>Abstract</h2>
-        <p>Your project abstract goes here. Summarize the key objectives and outcomes.</p>
-    </section>
+        <!-- Slide Section Example -->
+        <div class="slide-section">
+            <h4>Abstract</h4>
+            <p>This section provides an overview of the project or paper. Summarize the content briefly.</p>
+        </div>
 
-    <!-- Links Section -->
-    <section id="links">
-        <h2>Links</h2>
-        <ul>
-            <li><a href="link-to-paper.pdf" target="_blank">Paper PDF</a></li>
-            <li><a href="https://github.com/your-repo" target="_blank">GitHub Repository</a></li>
-            <li><a href="link-to-demo" target="_blank">Live Demo</a></li>
-        </ul>
-    </section>
+        <div class="slide-section">
+            <h4>Contributions</h4>
+            <p>Describe the main contributions of your work here.</p>
+        </div>
 
-    <!-- Overview Section -->
-    <section id="overview">
-        <h2>Overview</h2>
-        <p>Describe the purpose of your project here, including background information and project goals.</p>
-    </section>
+        <div class="slide-section">
+            <h4>Results</h4>
+            <div class="row">
+                <div class="col-md-4"><img src="image1.jpg" class="img-fluid" alt="Example Image 1"></div>
+                <div class="col-md-4"><img src="image2.jpg" class="img-fluid" alt="Example Image 2"></div>
+                <div class="col-md-4"><img src="image3.jpg" class="img-fluid" alt="Example Image 3"></div>
+            </div>
+            <p>Explain the images and their relevance to your project.</p>
+        </div>
 
-    <!-- Methodology Section -->
-    <section id="methodology">
-        <h2>Methodology</h2>
-        <p>Explain the methods used in your project, supported with diagrams or visuals if necessary.</p>
-    </section>
-
-    <!-- Results Section -->
-    <section id="results">
-        <h2>Results</h2>
-        <p>Summarize your findings and highlight key results. Include visuals or charts if applicable.</p>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2024 Your Name</p>
-    </footer>
+        <div class="slide-section">
+            <h4>Links</h4>
+            <a href="https://arxiv.org">[arXiv]</a>
+            <a href="https://github.com">[Code]</a>
+            <a href="https://demo.com">[Demo]</a>
+        </div>
+    </div>
 </body>
 </html>
