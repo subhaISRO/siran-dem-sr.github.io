@@ -66,6 +66,13 @@
                 <a href="https://arxiv.org/pdf/2409.14198" target="_blank">[Paper]</a>
                 <a href="https://github.com/subhaISRO/DEM-Super-resolution" target="_blank">[Dataset]</a>
             </div>
+            <p>DEM or Digital Elevation Model is a three dimensional model that represents
+                elevation of surfaces in digital format. Trditionally, DEMs are generated
+                from a pair of stereo images with photogrammetric techniques. High-resolution (HR)
+                DEMs have huge significance multiple applications like disaster planning and
+                city modellling. Therefore, here we focus on real world DEM SR under the guidance
+                of HR multi-spectral (MX) satellite image. 
+            </p>
         </div>
 
         <!-- Abstract Section -->
@@ -92,12 +99,15 @@
         <!-- Contributions Section -->
         <div class="slide-section">
             <h4>Contributions</h4>
-            <p>Describe the main contributions of your work here.</p>
+            <p>1. We propose a novel architecture for DEM SR based on a hybrid transformer block consisting of a Densely connected Multi-Residual Block (DMRB) and multi-headed Frequency Selective Graph Attention (M-FSGA),  which effectively utilizes information from an HR MX image as a guide by conditioning it with a discriminative spatial self-attention (DSA).</p>
+            <p>2. We develop and demonstrate SiRAN, a framework based on Sinkhorn regularized adversarial learning. We provide theoretical and empirical justification for its effectiveness in resolving the vanishing gradient issue while leveraging tighter iteration complexity.</p>
+            <p>3. Here, we focus on performing SR for real-world low-resolution (LR) DEM. Hence, we generate our own dataset where we take realistic coarse resolution data instead of considering bicubic downsampled HR image as input. </p>
+            <p>4. We perform experiments to assess the performance of our model along with ablation studies to show the impact of the different configuration choices.</p>
         </div>
 
         <!-- Results Section -->
         <div class="slide-section">
-            <h4>Results</h4>
+            <h4>Result on Test Dataset</h4>
             <div class="row">
                 <div class="col-md-4"><img src="image1.jpg" class="img-fluid" alt="Example Image 1"></div>
                 <div class="col-md-4"><img src="image2.jpg" class="img-fluid" alt="Example Image 2"></div>
