@@ -47,6 +47,15 @@
             background-color: #007bff;
             color: #fff;
         }
+        .bibtex-container {
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        overflow: hidden;
+        }
     </style>
 </head>
 <body>
@@ -125,10 +134,10 @@
             </div>
         </div> -->
 
-        <div class="slide-section"></div>
+        <div class="slide-section">
             <h4>Bibtex</h4>
-            <div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px; overflow-x: auto;">
-                <pre style="white-space: pre-wrap; word-wrap: break-word;">
+            <div class="bibtex-container">
+                <pre>
         @article{paul2024sinkhorn,
           title={A Sinkhorn Regularized Adversarial Network for Image Guided DEM Super-resolution using Frequency Selective Hybrid Graph Transformer},
           author={Paul, Subhajit and Gupta, Ashutosh},
